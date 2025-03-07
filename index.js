@@ -1,4 +1,5 @@
 const express = require("express");
+require("dotenv").config();
 const conn = require("./config");
 const schema = require("./schemaValidate");
 const calculateDistance = require("./calulateDistance");
